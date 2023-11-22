@@ -18,7 +18,7 @@ int main() {
     cout << "Введите натуральное число ";
     cin >> number;
 
-    while (number != 0) {
+    while (number > 0) {
         digit = number % 10;
         if (digit % 2 == 0) {
             even++;
