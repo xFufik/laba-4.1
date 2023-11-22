@@ -15,7 +15,7 @@ int main() {
     int even = 0;
     int odd = 0;
 
-    cout << "Введите натуральное число ";
+    cout << "Введите натуральное число: ";
     cin >> number;
 
     while (number > 0) {
